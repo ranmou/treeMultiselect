@@ -1,0 +1,1520 @@
+{
+    "status_code": 1,
+    "endAble": "true",
+    "readAble": "false",
+    "submitAble": "true",
+    "circulateAble": "true",
+    "workflowList": [
+                     {
+                     "activityCode": "Activity10",
+                     "isHidden": "false",
+                     "action": "承办",
+                     "nodeName": "部门人员承办",
+                     "selectList": [
+                                    1，
+                                    2
+                                    ]
+                     },
+                     {
+                     "activityCode": "circulate",
+                     "action": "传阅",
+                     "nodeName": "公文传阅",
+                     "selectList": [
+                                    {
+                                    "aliasName": "郑万铁路客运专线河南有限责任公司",
+                                    "code": "31575",
+                                    "hasChild": true,
+                                    "hasParent": false,
+                                    "isDept": true,
+                                    "level": 0,
+                                    "name": "郑万铁路客运专线河南有限责任公司",
+                                    "nextNode": [
+                                                 {
+                                                 "aliasName": "公司领导",
+                                                 "code": "55411",
+                                                 "hasChild": true,
+                                                 "hasParent": true,
+                                                 "isDept": true,
+                                                 "level": 1,
+                                                 "name": "公司领导",
+                                                 "nextNode": [
+                                                              {
+                                                              "aliasName": "马春山",
+                                                              "code": "zwmachunshan",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "马春山",
+                                                              "nextNode": [],
+                                                              "parentCode": "55411"
+                                                              },
+                                                              {
+                                                              "aliasName": "胡总",
+                                                              "code": "zwhushaohai",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "胡绍海",
+                                                              "nextNode": [],
+                                                              "parentCode": "55411"
+                                                              },
+                                                              {
+                                                              "aliasName": "李总",
+                                                              "code": "zwlisongbao",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "李松报",
+                                                              "nextNode": [],
+                                                              "parentCode": "55411"
+                                                              },
+                                                              {
+                                                              "aliasName": "马总",
+                                                              "code": "zwmamingzheng",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "马明正",
+                                                              "nextNode": [],
+                                                              "parentCode": "55411"
+                                                              }
+                                                              ],
+                                                 "parentCode": "31575"
+                                                 },
+                                                 {
+                                                 "aliasName": "平顶山指挥部",
+                                                 "code": "37379",
+                                                 "hasChild": true,
+                                                 "hasParent": true,
+                                                 "isDept": true,
+                                                 "level": 1,
+                                                 "name": "平顶山指挥部",
+                                                 "nextNode": [
+                                                              {
+                                                              "code": "qxsyzwpdstest",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "平顶山指挥部内部账号",
+                                                              "nextNode": [],
+                                                              "parentCode": "37379"
+                                                              },
+                                                              {
+                                                              "aliasName": "平顶山指挥部内部账号",
+                                                              "code": "zwpdszhb",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "平顶山指挥部内部账号",
+                                                              "nextNode": [],
+                                                              "parentCode": "37379"
+                                                              },
+                                                              {
+                                                              "aliasName": "平顶山指挥部管理员",
+                                                              "code": "g4301",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "平顶山指挥部管理员",
+                                                              "nextNode": [],
+                                                              "parentCode": "37379"
+                                                              },
+                                                              {
+                                                              "aliasName": "刘瑞峰",
+                                                              "code": "zwliuruifeng",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "刘瑞峰",
+                                                              "nextNode": [],
+                                                              "parentCode": "37379"
+                                                              },
+                                                              {
+                                                              "aliasName": "丁照安",
+                                                              "code": "zwdingzhaoan",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "丁照安",
+                                                              "nextNode": [],
+                                                              "parentCode": "37379"
+                                                              },
+                                                              {
+                                                              "aliasName": "蔡国华",
+                                                              "code": "zwcaiguohua",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "蔡国华",
+                                                              "nextNode": [],
+                                                              "parentCode": "37379"
+                                                              },
+                                                              {
+                                                              "aliasName": "张怀珍",
+                                                              "code": "zwzhanghuaizhen",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "张怀珍",
+                                                              "nextNode": [],
+                                                              "parentCode": "37379"
+                                                              },
+                                                              {
+                                                              "aliasName": "张武英",
+                                                              "code": "zwzhangwuying",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "张武英",
+                                                              "nextNode": [],
+                                                              "parentCode": "37379"
+                                                              },
+                                                              {
+                                                              "aliasName": "刘红广",
+                                                              "code": "zwliuhongguang",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "刘红广",
+                                                              "nextNode": [],
+                                                              "parentCode": "37379"
+                                                              },
+                                                              {
+                                                              "aliasName": "荣志强",
+                                                              "code": "zwqongzhiqiang",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "荣志强",
+                                                              "nextNode": [],
+                                                              "parentCode": "37379"
+                                                              },
+                                                              {
+                                                              "aliasName": "孙秀亮",
+                                                              "code": "zwsunxiuliang",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "孙秀亮",
+                                                              "nextNode": [],
+                                                              "parentCode": "37379"
+                                                              },
+                                                              {
+                                                              "aliasName": "许黎明",
+                                                              "code": "zwxuliming",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "许黎明",
+                                                              "nextNode": [],
+                                                              "parentCode": "37379"
+                                                              },
+                                                              {
+                                                              "aliasName": "张宏群",
+                                                              "code": "zwzhanghuongwun",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "张宏群",
+                                                              "nextNode": [],
+                                                              "parentCode": "37379"
+                                                              },
+                                                              {
+                                                              "aliasName": "朱立成",
+                                                              "code": "zwzhulicheng-1",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "朱立成",
+                                                              "nextNode": [],
+                                                              "parentCode": "37379"
+                                                              },
+                                                              {
+                                                              "aliasName": "鲁志辉",
+                                                              "code": "zwluzhihui",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "鲁志辉",
+                                                              "nextNode": [],
+                                                              "parentCode": "37379"
+                                                              }
+                                                              ],
+                                                 "parentCode": "31575"
+                                                 },
+                                                 {
+                                                 "aliasName": "南阳指挥部",
+                                                 "code": "37380",
+                                                 "hasChild": true,
+                                                 "hasParent": true,
+                                                 "isDept": true,
+                                                 "level": 1,
+                                                 "name": "南阳指挥部",
+                                                 "nextNode": [
+                                                              {
+                                                              "aliasName": "鞍山市",
+                                                              "code": "112",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": true,
+                                                              "level": 2,
+                                                              "name": "鞍山市",
+                                                              "nextNode": [],
+                                                              "parentCode": "37380"
+                                                              },
+                                                              {
+                                                              "aliasName": "安装1部",
+                                                              "code": "anzhaung1",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": true,
+                                                              "level": 2,
+                                                              "name": "安装1部",
+                                                              "nextNode": [],
+                                                              "parentCode": "37380"
+                                                              },
+                                                              {
+                                                              "aliasName": "安质部",
+                                                              "code": "37392",
+                                                              "hasChild": true,
+                                                              "hasParent": true,
+                                                              "isDept": true,
+                                                              "level": 2,
+                                                              "name": "安质部",
+                                                              "nextNode": [
+                                                                           {
+                                                                           "aliasName": "连续梁测试南阳指挥部",
+                                                                           "code": "lxl_zhb",
+                                                                           "hasChild": false,
+                                                                           "hasParent": true,
+                                                                           "isDept": false,
+                                                                           "level": 3,
+                                                                           "name": "连续梁测试南阳指挥部",
+                                                                           "nextNode": [],
+                                                                           "parentCode": "37392"
+                                                                           }
+                                                                           ],
+                                                              "parentCode": "37380"
+                                                              },
+                                                              {
+                                                              "aliasName": "测试部",
+                                                              "code": "55555",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": true,
+                                                              "level": 2,
+                                                              "name": "测试部",
+                                                              "nextNode": [],
+                                                              "parentCode": "37380"
+                                                              },
+                                                              {
+                                                              "aliasName": "南阳指挥部管理员",
+                                                              "code": "g4302",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "南阳指挥部管理员",
+                                                              "nextNode": [],
+                                                              "parentCode": "37380"
+                                                              },
+                                                              {
+                                                              "aliasName": "彭向国",
+                                                              "code": "zwpengxiangguo",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "彭向国",
+                                                              "nextNode": [],
+                                                              "parentCode": "37380"
+                                                              },
+                                                              {
+                                                              "aliasName": "刘家华",
+                                                              "code": "zwliujiahua",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "刘家华",
+                                                              "nextNode": [],
+                                                              "parentCode": "37380"
+                                                              },
+                                                              {
+                                                              "aliasName": "钟长俊",
+                                                              "code": "zwzhongchangjun",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "钟长俊",
+                                                              "nextNode": [],
+                                                              "parentCode": "37380"
+                                                              },
+                                                              {
+                                                              "aliasName": "王子利",
+                                                              "code": "zfwangzili",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "王子利",
+                                                              "nextNode": [],
+                                                              "parentCode": "37380"
+                                                              },
+                                                              {
+                                                              "aliasName": "王东红",
+                                                              "code": "zwwangdonghong",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "王东红",
+                                                              "nextNode": [],
+                                                              "parentCode": "37380"
+                                                              },
+                                                              {
+                                                              "aliasName": "郝方位",
+                                                              "code": "zwhaofangwei",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "郝方位",
+                                                              "nextNode": [],
+                                                              "parentCode": "37380"
+                                                              },
+                                                              {
+                                                              "aliasName": "蒋晓军",
+                                                              "code": "jiangxiaojun1",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "蒋晓军",
+                                                              "nextNode": [],
+                                                              "parentCode": "37380"
+                                                              },
+                                                              {
+                                                              "aliasName": "高建斌",
+                                                              "code": "zwgaojianbin",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "高建斌",
+                                                              "nextNode": [],
+                                                              "parentCode": "37380"
+                                                              }
+                                                              ],
+                                                 "parentCode": "31575"
+                                                 },
+                                                 {
+                                                 "aliasName": "大桥指挥部",
+                                                 "code": "46839",
+                                                 "hasChild": true,
+                                                 "hasParent": true,
+                                                 "isDept": true,
+                                                 "level": 1,
+                                                 "name": "大桥指挥部",
+                                                 "nextNode": [
+                                                              {
+                                                              "code": "zwdqzhb",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "大桥指挥部管理员",
+                                                              "nextNode": [],
+                                                              "parentCode": "46839"
+                                                              },
+                                                              {
+                                                              "aliasName": "任春蕾",
+                                                              "code": "zwrenchunlei",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "任春蕾",
+                                                              "nextNode": [],
+                                                              "parentCode": "46839"
+                                                              },
+                                                              {
+                                                              "aliasName": "付学伟",
+                                                              "code": "zwfxw",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "付学伟",
+                                                              "nextNode": [],
+                                                              "parentCode": "46839"
+                                                              }
+                                                              ],
+                                                 "parentCode": "31575"
+                                                 },
+                                                 {
+                                                 "aliasName": "周口指挥部",
+                                                 "code": "48700",
+                                                 "hasChild": true,
+                                                 "hasParent": true,
+                                                 "isDept": true,
+                                                 "level": 1,
+                                                 "name": "周口指挥部",
+                                                 "nextNode": [
+                                                              {
+                                                              "aliasName": "测试2部666",
+                                                              "code": "1234666",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": true,
+                                                              "level": 2,
+                                                              "name": "测试2部666",
+                                                              "nextNode": [],
+                                                              "parentCode": "48700"
+                                                              },
+                                                              {
+                                                              "code": "zwyanlindong",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "闫林栋",
+                                                              "nextNode": [],
+                                                              "parentCode": "48700"
+                                                              },
+                                                              {
+                                                              "aliasName": "张新峰",
+                                                              "code": "zwzhangxinfeng",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "张新峰",
+                                                              "nextNode": [],
+                                                              "parentCode": "48700"
+                                                              },
+                                                              {
+                                                              "aliasName": "陈亮",
+                                                              "code": "zwchenliang",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "陈亮",
+                                                              "nextNode": [],
+                                                              "parentCode": "48700"
+                                                              },
+                                                              {
+                                                              "aliasName": "徐凯",
+                                                              "code": "zfxk",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "徐凯",
+                                                              "nextNode": [],
+                                                              "parentCode": "48700"
+                                                              },
+                                                              {
+                                                              "aliasName": "戴淑云",
+                                                              "code": "zfdaishuyun",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "戴淑云",
+                                                              "nextNode": [],
+                                                              "parentCode": "48700"
+                                                              },
+                                                              {
+                                                              "aliasName": "荣衍恩",
+                                                              "code": "zfrongyanen",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "荣衍恩",
+                                                              "nextNode": [],
+                                                              "parentCode": "48700"
+                                                              },
+                                                              {
+                                                              "aliasName": "李军政",
+                                                              "code": "zflijunzheng",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "李军政",
+                                                              "nextNode": [],
+                                                              "parentCode": "48700"
+                                                              },
+                                                              {
+                                                              "aliasName": "蔡向东",
+                                                              "code": "zfcaixiangdong",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "蔡向东",
+                                                              "nextNode": [],
+                                                              "parentCode": "48700"
+                                                              },
+                                                              {
+                                                              "aliasName": "张国银",
+                                                              "code": "zfzhangguoyin",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "张国银",
+                                                              "nextNode": [],
+                                                              "parentCode": "48700"
+                                                              },
+                                                              {
+                                                              "aliasName": "刘保江",
+                                                              "code": "zfliubaojiang",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "刘保江",
+                                                              "nextNode": [],
+                                                              "parentCode": "48700"
+                                                              }
+                                                              ],
+                                                 "parentCode": "31575"
+                                                 },
+                                                 {
+                                                 "aliasName": "综合管理部",
+                                                 "code": "55412",
+                                                 "hasChild": true,
+                                                 "hasParent": true,
+                                                 "isDept": true,
+                                                 "level": 1,
+                                                 "name": "综合管理部",
+                                                 "nextNode": [
+                                                              {
+                                                              "aliasName": "王振文",
+                                                              "code": "zwwangzhenwen",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "王振文",
+                                                              "nextNode": [],
+                                                              "parentCode": "55412"
+                                                              },
+                                                              {
+                                                              "aliasName": "汪青华",
+                                                              "code": "zwwangqinghua",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "汪青华",
+                                                              "nextNode": [],
+                                                              "parentCode": "55412"
+                                                              },
+                                                              {
+                                                              "aliasName": "廖哲",
+                                                              "code": "zwliaozhe",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "廖哲",
+                                                              "nextNode": [],
+                                                              "parentCode": "55412"
+                                                              },
+                                                              {
+                                                              "aliasName": "权联营",
+                                                              "code": "zwquanlianying",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "权联营",
+                                                              "nextNode": [],
+                                                              "parentCode": "55412"
+                                                              },
+                                                              {
+                                                              "aliasName": "迟华",
+                                                              "code": "zwchihua",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "迟华",
+                                                              "nextNode": [],
+                                                              "parentCode": "55412"
+                                                              },
+                                                              {
+                                                              "aliasName": "岳伟利",
+                                                              "code": "zwyueweili",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "岳伟利",
+                                                              "nextNode": [],
+                                                              "parentCode": "55412"
+                                                              },
+                                                              {
+                                                              "aliasName": "代海言",
+                                                              "code": "zwdaihaiyan",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "代海言",
+                                                              "nextNode": [],
+                                                              "parentCode": "55412"
+                                                              }
+                                                              ],
+                                                 "parentCode": "31575"
+                                                 },
+                                                 {
+                                                 "aliasName": "计划财务部",
+                                                 "code": "55413",
+                                                 "hasChild": true,
+                                                 "hasParent": true,
+                                                 "isDept": true,
+                                                 "level": 1,
+                                                 "name": "计划财务部",
+                                                 "nextNode": [
+                                                              {
+                                                              "aliasName": "田茂杰",
+                                                              "code": "zwtianmaojie",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "田茂杰",
+                                                              "nextNode": [],
+                                                              "parentCode": "55413"
+                                                              },
+                                                              {
+                                                              "aliasName": "徐桂芝",
+                                                              "code": "zwxuguizhi",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "徐桂芝",
+                                                              "nextNode": [],
+                                                              "parentCode": "55413"
+                                                              },
+                                                              {
+                                                              "aliasName": "罗中",
+                                                              "code": "zwluozhong",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "罗中",
+                                                              "nextNode": [],
+                                                              "parentCode": "55413"
+                                                              },
+                                                              {
+                                                              "aliasName": "乔晓宇",
+                                                              "code": "zfqiaoxiaoyu",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "乔晓宇",
+                                                              "nextNode": [],
+                                                              "parentCode": "55413"
+                                                              },
+                                                              {
+                                                              "aliasName": "郭文",
+                                                              "code": "zwguowen",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "郭文",
+                                                              "nextNode": [],
+                                                              "parentCode": "55413"
+                                                              },
+                                                              {
+                                                              "aliasName": "陈颖",
+                                                              "code": "zwchenying",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "陈颖",
+                                                              "nextNode": [],
+                                                              "parentCode": "55413"
+                                                              },
+                                                              {
+                                                              "aliasName": "徐静",
+                                                              "code": "zwxujing",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "徐静",
+                                                              "nextNode": [],
+                                                              "parentCode": "55413"
+                                                              },
+                                                              {
+                                                              "aliasName": "刘梅",
+                                                              "code": "zwliumei",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "刘梅",
+                                                              "nextNode": [],
+                                                              "parentCode": "55413"
+                                                              },
+                                                              {
+                                                              "aliasName": "牛光辉",
+                                                              "code": "zwniuguanghui",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "牛光辉",
+                                                              "nextNode": [],
+                                                              "parentCode": "55413"
+                                                              },
+                                                              {
+                                                              "aliasName": "郭慧敏",
+                                                              "code": "zwguohuimin",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "郭慧敏",
+                                                              "nextNode": [],
+                                                              "parentCode": "55413"
+                                                              },
+                                                              {
+                                                              "aliasName": "崔泽恒",
+                                                              "code": "zwcuizeheng",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "崔泽恒",
+                                                              "nextNode": [],
+                                                              "parentCode": "55413"
+                                                              },
+                                                              {
+                                                              "aliasName": "杨鹏",
+                                                              "code": "zwyangpeng",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "杨鹏",
+                                                              "nextNode": [],
+                                                              "parentCode": "55413"
+                                                              }
+                                                              ],
+                                                 "parentCode": "31575"
+                                                 },
+                                                 {
+                                                 "aliasName": "工程技术部",
+                                                 "code": "55414",
+                                                 "hasChild": true,
+                                                 "hasParent": true,
+                                                 "isDept": true,
+                                                 "level": 1,
+                                                 "name": "工程技术部",
+                                                 "nextNode": [
+                                                              {
+                                                              "code": "zwhoushouchao",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "侯守朝",
+                                                              "nextNode": [],
+                                                              "parentCode": "55414"
+                                                              },
+                                                              {
+                                                              "aliasName": "陈俊波",
+                                                              "code": "zwchenjunbo",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "陈俊波",
+                                                              "nextNode": [],
+                                                              "parentCode": "55414"
+                                                              },
+                                                              {
+                                                              "aliasName": "梁俊国",
+                                                              "code": "zwliangjunguo",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "梁俊国",
+                                                              "nextNode": [],
+                                                              "parentCode": "55414"
+                                                              },
+                                                              {
+                                                              "aliasName": "曹自印",
+                                                              "code": "zwcaoziyin",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "曹自印",
+                                                              "nextNode": [],
+                                                              "parentCode": "55414"
+                                                              },
+                                                              {
+                                                              "aliasName": "杨秉辉",
+                                                              "code": "zwyangbinghui",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "杨秉辉",
+                                                              "nextNode": [],
+                                                              "parentCode": "55414"
+                                                              },
+                                                              {
+                                                              "aliasName": "徐海山",
+                                                              "code": "zwxuhaishan",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "徐海山",
+                                                              "nextNode": [],
+                                                              "parentCode": "55414"
+                                                              },
+                                                              {
+                                                              "aliasName": "史修朋",
+                                                              "code": "zwshixiupeng",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "史修朋",
+                                                              "nextNode": [],
+                                                              "parentCode": "55414"
+                                                              },
+                                                              {
+                                                              "aliasName": "焦新坡",
+                                                              "code": "zwjiaoxinpo",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "焦新坡",
+                                                              "nextNode": [],
+                                                              "parentCode": "55414"
+                                                              },
+                                                              {
+                                                              "aliasName": "徐小左",
+                                                              "code": "zwxuxiaozuo",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "徐小左",
+                                                              "nextNode": [],
+                                                              "parentCode": "55414"
+                                                              },
+                                                              {
+                                                              "aliasName": "丁伟",
+                                                              "code": "zwdingwei",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "丁伟",
+                                                              "nextNode": [],
+                                                              "parentCode": "55414"
+                                                              },
+                                                              {
+                                                              "aliasName": "方艺博",
+                                                              "code": "zwfangyibo",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "方艺博",
+                                                              "nextNode": [],
+                                                              "parentCode": "55414"
+                                                              },
+                                                              {
+                                                              "aliasName": "杨志广",
+                                                              "code": "zwyangzhiguang",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "杨志广",
+                                                              "nextNode": [],
+                                                              "parentCode": "55414"
+                                                              },
+                                                              {
+                                                              "aliasName": "汪少舫",
+                                                              "code": "zwwangshaofang",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "汪少舫",
+                                                              "nextNode": [],
+                                                              "parentCode": "55414"
+                                                              },
+                                                              {
+                                                              "aliasName": "梁言",
+                                                              "code": "zwliangyan",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "梁言",
+                                                              "nextNode": [],
+                                                              "parentCode": "55414"
+                                                              },
+                                                              {
+                                                              "aliasName": "赵富强",
+                                                              "code": "zwzhaofuqiang",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "赵富强",
+                                                              "nextNode": [],
+                                                              "parentCode": "55414"
+                                                              },
+                                                              {
+                                                              "aliasName": "马尔君",
+                                                              "code": "zwmaerjun",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "马尔君",
+                                                              "nextNode": [],
+                                                              "parentCode": "55414"
+                                                              },
+                                                              {
+                                                              "aliasName": "张超",
+                                                              "code": "zwjszc",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "张超",
+                                                              "nextNode": [],
+                                                              "parentCode": "55414"
+                                                              },
+                                                              {
+                                                              "aliasName": "魏建宇",
+                                                              "code": "zwweijianyu",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "魏建宇",
+                                                              "nextNode": [],
+                                                              "parentCode": "55414"
+                                                              },
+                                                              {
+                                                              "aliasName": "许思源",
+                                                              "code": "zwxusiyuan",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "许思源",
+                                                              "nextNode": [],
+                                                              "parentCode": "55414"
+                                                              },
+                                                              {
+                                                              "aliasName": "zw123",
+                                                              "code": "zw123",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "zw123",
+                                                              "nextNode": [],
+                                                              "parentCode": "55414"
+                                                              },
+                                                              {
+                                                              "aliasName": "刘红峰",
+                                                              "code": "zwliuhongfeng",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "刘红峰",
+                                                              "nextNode": [],
+                                                              "parentCode": "55414"
+                                                              },
+                                                              {
+                                                              "aliasName": "刘成宽",
+                                                              "code": "zwliuchengkuan",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "刘成宽",
+                                                              "nextNode": [],
+                                                              "parentCode": "55414"
+                                                              },
+                                                              {
+                                                              "aliasName": "王辉麟",
+                                                              "code": "zwwanghuilin",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "王辉麟",
+                                                              "nextNode": [],
+                                                              "parentCode": "55414"
+                                                              },
+                                                              {
+                                                              "aliasName": "沈东升",
+                                                              "code": "zwshendongsheng",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "沈东升",
+                                                              "nextNode": [],
+                                                              "parentCode": "55414"
+                                                              },
+                                                              {
+                                                              "aliasName": "毕伟",
+                                                              "code": "tkybw",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "毕伟",
+                                                              "nextNode": [],
+                                                              "parentCode": "55414"
+                                                              }
+                                                              ],
+                                                 "parentCode": "31575"
+                                                 },
+                                                 {
+                                                 "aliasName": "安全质量部",
+                                                 "code": "55415",
+                                                 "hasChild": true,
+                                                 "hasParent": true,
+                                                 "isDept": true,
+                                                 "level": 1,
+                                                 "name": "安全质量部",
+                                                 "nextNode": [
+                                                              {
+                                                              "code": "zwzhouxiaohua",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "周小华",
+                                                              "nextNode": [],
+                                                              "parentCode": "55415"
+                                                              },
+                                                              {
+                                                              "aliasName": "花涛",
+                                                              "code": "zwhuatao",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "花涛",
+                                                              "nextNode": [],
+                                                              "parentCode": "55415"
+                                                              },
+                                                              {
+                                                              "aliasName": "李超",
+                                                              "code": "zwlichao",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "李超",
+                                                              "nextNode": [],
+                                                              "parentCode": "55415"
+                                                              },
+                                                              {
+                                                              "aliasName": "宿宾",
+                                                              "code": "zwsubin",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "宿宾",
+                                                              "nextNode": [],
+                                                              "parentCode": "55415"
+                                                              },
+                                                              {
+                                                              "aliasName": "符银锋",
+                                                              "code": "zwfuyinfeng",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "符银锋",
+                                                              "nextNode": [],
+                                                              "parentCode": "55415"
+                                                              },
+                                                              {
+                                                              "aliasName": "庞宇辉",
+                                                              "code": "zwpangyuhui",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "庞宇辉",
+                                                              "nextNode": [],
+                                                              "parentCode": "55415"
+                                                              },
+                                                              {
+                                                              "aliasName": "楚爱芳",
+                                                              "code": "zwchuaifang",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "楚爱芳",
+                                                              "nextNode": [],
+                                                              "parentCode": "55415"
+                                                              },
+                                                              {
+                                                              "aliasName": "李成亮",
+                                                              "code": "zwlichengliang",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "李成亮",
+                                                              "nextNode": [],
+                                                              "parentCode": "55415"
+                                                              },
+                                                              {
+                                                              "aliasName": "刘磊",
+                                                              "code": "zwliulei01",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "刘磊",
+                                                              "nextNode": [],
+                                                              "parentCode": "55415"
+                                                              },
+                                                              {
+                                                              "aliasName": "高磊",
+                                                              "code": "zwgaolei",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "高磊",
+                                                              "nextNode": [],
+                                                              "parentCode": "55415"
+                                                              },
+                                                              {
+                                                              "aliasName": "刘玉卿",
+                                                              "code": "zwlyq",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "刘玉卿",
+                                                              "nextNode": [],
+                                                              "parentCode": "55415"
+                                                              }
+                                                              ],
+                                                 "parentCode": "31575"
+                                                 },
+                                                 {
+                                                 "aliasName": "物资设备部",
+                                                 "code": "55416",
+                                                 "hasChild": true,
+                                                 "hasParent": true,
+                                                 "isDept": true,
+                                                 "level": 1,
+                                                 "name": "物资设备部",
+                                                 "nextNode": [
+                                                              {
+                                                              "aliasName": "张孝生",
+                                                              "code": "zwzhangxiaosheng",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "张孝生",
+                                                              "nextNode": [],
+                                                              "parentCode": "55416"
+                                                              },
+                                                              {
+                                                              "aliasName": "杜永新",
+                                                              "code": "zwduyongxin",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "杜永新",
+                                                              "nextNode": [],
+                                                              "parentCode": "55416"
+                                                              },
+                                                              {
+                                                              "aliasName": "胡新政",
+                                                              "code": "zwhuxinzheng",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "胡新政",
+                                                              "nextNode": [],
+                                                              "parentCode": "55416"
+                                                              },
+                                                              {
+                                                              "aliasName": "王建",
+                                                              "code": "zwwangjian",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "王建",
+                                                              "nextNode": [],
+                                                              "parentCode": "55416"
+                                                              },
+                                                              {
+                                                              "aliasName": "杜莉娟",
+                                                              "code": "zwdulijuan",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "杜莉娟",
+                                                              "nextNode": [],
+                                                              "parentCode": "55416"
+                                                              },
+                                                              {
+                                                              "aliasName": "郝宇",
+                                                              "code": "zwhaoyu",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "郝宇",
+                                                              "nextNode": [],
+                                                              "parentCode": "55416"
+                                                              },
+                                                              {
+                                                              "aliasName": "何超",
+                                                              "code": "zwhechao",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "何超",
+                                                              "nextNode": [],
+                                                              "parentCode": "55416"
+                                                              },
+                                                              {
+                                                              "aliasName": "韩尊相",
+                                                              "code": "zwhanzunxiang",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "韩尊相",
+                                                              "nextNode": [],
+                                                              "parentCode": "55416"
+                                                              },
+                                                              {
+                                                              "aliasName": "张世平",
+                                                              "code": "zwzhangshiping",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "张世平",
+                                                              "nextNode": [],
+                                                              "parentCode": "55416"
+                                                              }
+                                                              ],
+                                                 "parentCode": "31575"
+                                                 },
+                                                 {
+                                                 "aliasName": "征协外协办",
+                                                 "code": "55417",
+                                                 "hasChild": true,
+                                                 "hasParent": true,
+                                                 "isDept": true,
+                                                 "level": 1,
+                                                 "name": "征协外协办",
+                                                 "nextNode": [
+                                                              {
+                                                              "code": "zwyuhaiting",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "于海亭",
+                                                              "nextNode": [],
+                                                              "parentCode": "55417"
+                                                              },
+                                                              {
+                                                              "aliasName": "张茂林",
+                                                              "code": "zwzhangmaolin",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "张茂林",
+                                                              "nextNode": [],
+                                                              "parentCode": "55417"
+                                                              },
+                                                              {
+                                                              "aliasName": "赵秋芝",
+                                                              "code": "zwzhaoqiuzhi",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "赵秋芝",
+                                                              "nextNode": [],
+                                                              "parentCode": "55417"
+                                                              },
+                                                              {
+                                                              "aliasName": "李铁旦",
+                                                              "code": "zwlitiedan",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "李铁旦",
+                                                              "nextNode": [],
+                                                              "parentCode": "55417"
+                                                              }
+                                                              ],
+                                                 "parentCode": "31575"
+                                                 },
+                                                 {
+                                                 "aliasName": "四电办",
+                                                 "code": "55418",
+                                                 "hasChild": true,
+                                                 "hasParent": true,
+                                                 "isDept": true,
+                                                 "level": 1,
+                                                 "name": "四电办",
+                                                 "nextNode": [
+                                                              {
+                                                              "code": "zwwangmin",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "王民",
+                                                              "nextNode": [],
+                                                              "parentCode": "55418"
+                                                              },
+                                                              {
+                                                              "aliasName": "潘国正",
+                                                              "code": "zwpanguozheng",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "潘国正",
+                                                              "nextNode": [],
+                                                              "parentCode": "55418"
+                                                              },
+                                                              {
+                                                              "aliasName": "李养民",
+                                                              "code": "zwliyangmin",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "李养民",
+                                                              "nextNode": [],
+                                                              "parentCode": "55418"
+                                                              },
+                                                              {
+                                                              "aliasName": "李俊峰",
+                                                              "code": "zwlijunfeng",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "李俊峰",
+                                                              "nextNode": [],
+                                                              "parentCode": "55418"
+                                                              },
+                                                              {
+                                                              "aliasName": "陈刚",
+                                                              "code": "zwchengang",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "陈刚",
+                                                              "nextNode": [],
+                                                              "parentCode": "55418"
+                                                              },
+                                                              {
+                                                              "aliasName": "杜艳萍",
+                                                              "code": "zwduyanping",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "杜艳萍",
+                                                              "nextNode": [],
+                                                              "parentCode": "55418"
+                                                              },
+                                                              {
+                                                              "aliasName": "苏红霞",
+                                                              "code": "zwsuhongxia",
+                                                              "hasChild": false,
+                                                              "hasParent": true,
+                                                              "isDept": false,
+                                                              "level": 2,
+                                                              "name": "苏红霞",
+                                                              "nextNode": [],
+                                                              "parentCode": "55418"
+                                                              }
+                                                              ],
+                                                 "parentCode": "31575"
+                                                 }
+                                                 ],
+                                    "parentCode": "00"
+                                    }
+                                    ]
+                     }
+                     ],
+    "returnAble": "true",
+    "msg": "操作成功"
+}
